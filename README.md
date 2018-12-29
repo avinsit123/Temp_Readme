@@ -58,3 +58,5 @@ Quit the server with CONTROL-C.
  ![Optional Text](../master/screenomatic.png)
  
  <hr>
+
+In order to know more about each of the functionalities goto the above link ()
