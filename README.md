@@ -52,4 +52,9 @@ Starting development server at http://127.0.0.1:8000/
 Quit the server with CONTROL-C.
  ```
  
- Cut and paste http://127.0.0.1:8000/ on any browser of your choice or click on the link in the terminal.A WebPage of the following figure will be loaded
+ Cut and paste http://127.0.0.1:8000/ on any browser of your choice or click on the link in the terminal.A WebPage of the following figure will be loaded:
+ 
+ 
+ 
+ 
+ 
