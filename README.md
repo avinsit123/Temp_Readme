@@ -12,6 +12,44 @@ Hope you like it and enjoy it.
   
 ## Running the project on your local system
 
+### Installing the requirements
 The project is built using Django framework so you must have Python installed on your local system and also preferably Anaconda Distribution.Follow the steps given below to set up the project on your local system
 
-``` $git clone  ```
+```terminal
+$git clone 
+$cd Tweet-o-Pedia 
+$pip install -r requirements.txt 
+```
+ It is a long file and might take some time to install all the dependencies on your local pc.
+ 
+ ### Setting up the Server
+ 
+ After the above steps are completed follow the steps given below
+ ```terminal
+ $mkdir ~/virtualenvironment
+ $source activate
+ ```
+ Your production environment will be replaced by (base)
+ 
+ ```terminal
+ $cd mysite
+ $python manage.py runserver 
+ ```
+ 
+ Your output on the Terminal will be something like this.
+ 
+ ```
+ Performing system checks...
+
+System check identified no issues (0 silenced).
+
+You have 15 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions.
+Run 'python manage.py migrate' to apply them.
+
+December 29, 2018 - 13:50:33
+Django version 2.1.4, using settings 'mysite.settings'
+Starting development server at http://127.0.0.1:8000/
+Quit the server with CONTROL-C.
+ ```
+ 
+ Cut and paste http://127.0.0.1:8000/ on any browser of your choice or click on the link in the terminal.A WebPage of the following figure will be loaded
